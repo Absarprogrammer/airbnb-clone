@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Heart, Star, ChevronLeft, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { formatINR } from '../utils/formatCurrency';
 
 const ListingCard = ({ listing, onCardClick, toggleFavorite, isFavorite }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -89,8 +90,8 @@ const ListingCard = ({ listing, onCardClick, toggleFavorite, isFavorite }) => {
         </div>
         <p className="text-gray-500 dark:text-gray-400 text-sm truncate">{listing.title}</p>
         <div className="mt-1 flex items-baseline gap-1">
-          <span className="font-semibold text-gray-900 dark:text-gray-100">${listing.price}</span>
-          <span className="text-sm text-gray-500 dark:text-gray-400">night</span>
+          <span className="font-semibold text-gray-900 dark:text-gray-100">{formatINR(listing.price)}</span>
+          <span className="text-sm text-gray-500 dark:text-gray-400">/ रात</span>
         </div>
       </div>
     </motion.div>

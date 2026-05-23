@@ -9,10 +9,10 @@ const Hero = () => {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="relative rounded-3xl overflow-hidden h-[60vh] min-h-[450px] w-full flex items-center justify-center shadow-2xl group"
       >
-        {/* Premium Background Image */}
+        {/* Premium Background Image - Indian Destination */}
         <div 
           className="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-[20s] ease-linear"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=2000&q=80')" }}
+          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=2000&q=80')" }}
         />
         
         {/* Overlay */}

@@ -1,11 +1,11 @@
 export const categories = [
-  { label: 'Icons', icon: 'Sparkles' },
+  { label: 'Heritage', icon: 'Sparkles' },
   { label: 'Amazing pools', icon: 'Waves' },
-  { label: 'Castles', icon: 'Castle' },
-  { label: 'Cabins', icon: 'Tent' },
+  { label: 'Palaces', icon: 'Castle' },
+  { label: 'Jungle Camps', icon: 'Tent' },
   { label: 'Beachfront', icon: 'Umbrella' },
   { label: 'Countryside', icon: 'Trees' },
-  { label: 'Skiing', icon: 'Snowflake' },
+  { label: 'Hills & Valleys', icon: 'Snowflake' },
   { label: 'Design', icon: 'Brush' },
   { label: 'Treehouses', icon: 'Home' },
   { label: 'Lakefront', icon: 'Sailboat' },
@@ -14,99 +14,105 @@ export const categories = [
 export const listings = [
   {
     id: 1,
-    title: 'Modern Glass House in the Forest',
-    location: 'Aspen, Colorado',
+    title: 'Luxury Glass Villa in the Western Ghats',
+    location: 'Coorg, Karnataka',
     rating: 4.96,
-    price: 450,
+    price: 37500,
     images: [
-      'https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=800&q=80'
+      'https://images.unsplash.com/photo-1598977123118-4e30ba3c4f5b?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1601918774946-25832a4be0d6?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1627894483216-2138af692e32?auto=format&fit=crop&w=800&q=80'
     ],
     category: 'Design'
   },
   {
     id: 2,
     title: 'Secluded Beachfront Villa',
-    location: 'Malibu, California',
+    location: 'Candolim, Goa',
     rating: 4.85,
-    price: 850,
+    price: 70000,
     images: [
-      'https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=800&q=80'
+      'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1587922546307-776227941871?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80'
     ],
     category: 'Beachfront'
   },
   {
     id: 3,
-    title: 'Historic Castle in the Highlands',
-    location: 'Inverness, Scotland',
+    title: 'Royal Heritage Palace Stay',
+    location: 'Jaisalmer, Rajasthan',
     rating: 4.99,
-    price: 1200,
+    price: 99000,
     images: [
-      'https://images.unsplash.com/photo-1533154683836-84ea7a0bc310?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1549887552-cb1071d3e5ca?auto=format&fit=crop&w=800&q=80'
+      'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1477587458883-47145ed68073?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=800&q=80'
     ],
-    category: 'Castles'
+    category: 'Palaces'
   },
   {
     id: 4,
-    title: 'Cozy A-Frame Cabin',
-    location: 'Lake Tahoe, Nevada',
+    title: 'Cozy Forest Cabin by the River',
+    location: 'Wayanad, Kerala',
     rating: 4.75,
-    price: 220,
+    price: 18500,
     images: [
-      'https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1542718610-a1d656d1884c?auto=format&fit=crop&w=800&q=80'
+      'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1593693411515-c20261bcad6e?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=800&q=80'
     ],
-    category: 'Cabins'
+    category: 'Jungle Camps'
   },
   {
     id: 5,
     title: 'Luxury Villa with Infinity Pool',
-    location: 'Santorini, Greece',
+    location: 'Alibaug, Maharashtra',
     rating: 4.92,
-    price: 950,
+    price: 78500,
     images: [
-      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&w=800&q=80'
+      'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1615460549969-36fa19521a4f?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80'
     ],
     category: 'Amazing pools'
   },
   {
     id: 6,
-    title: 'Modern Treehouse Retreat',
-    location: 'Tulum, Mexico',
+    title: 'Bamboo Treehouse in the Jungle',
+    location: 'Munnar, Kerala',
     rating: 4.88,
-    price: 320,
+    price: 26500,
     images: [
-      'https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1448630360428-65456885c650?auto=format&fit=crop&w=800&q=80'
+      'https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1623091411395-09e79fdbfcf7?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1571952222175-2a9b42b7da80?auto=format&fit=crop&w=800&q=80'
     ],
     category: 'Treehouses'
   },
   {
     id: 7,
-    title: 'Chalet with Panoramic Alpine Views',
-    location: 'Zermatt, Switzerland',
+    title: 'Mountain Chalet with Valley Views',
+    location: 'Manali, Himachal Pradesh',
     rating: 4.97,
-    price: 680,
+    price: 56000,
     images: [
-      'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80'
+      'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1585016495481-91613b765703?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80'
     ],
-    category: 'Skiing'
+    category: 'Hills & Valleys'
   },
   {
     id: 8,
-    title: 'Desert Oasis Villa',
-    location: 'Joshua Tree, California',
+    title: 'Desert Camp with Starlit Skies',
+    location: 'Jaisalmer, Rajasthan',
     rating: 4.91,
-    price: 410,
+    price: 34000,
     images: [
-      'https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80'
+      'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1611068120813-17d1e4c03eb8?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1504788363733-507549153474?auto=format&fit=crop&w=800&q=80'
     ],
     category: 'Design'
   }

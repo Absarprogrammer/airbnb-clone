@@ -57,7 +57,7 @@ const Footer = () => {
               <Globe size={18} />
               <span>English (US)</span>
             </button>
-            <button className="hover:underline">$ USD</button>
+            <button className="hover:underline">₹ INR</button>
           </div>
         </div>
       </div>

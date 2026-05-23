@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Star, Heart } from 'lucide-react';
+import { formatINR } from '../utils/formatCurrency';
 
 const Modal = ({ isOpen, onClose, listing }) => {
   if (!isOpen || !listing) return null;
@@ -76,8 +77,8 @@ const Modal = ({ isOpen, onClose, listing }) => {
               <div className="w-full md:w-1/3">
                 <div className="border border-gray-200 dark:border-slate-800 rounded-2xl p-6 shadow-xl sticky top-6 bg-white dark:bg-slate-900">
                   <div className="flex items-baseline gap-1 mb-4">
-                    <span className="text-2xl font-bold text-gray-900 dark:text-gray-100">${listing.price}</span>
-                    <span className="text-gray-500 dark:text-gray-400">night</span>
+                    <span className="text-2xl font-bold text-gray-900 dark:text-gray-100">{formatINR(listing.price)}</span>
+                    <span className="text-gray-500 dark:text-gray-400">/ रात</span>
                   </div>
                   <button className="w-full bg-rose-500 hover:bg-rose-600 text-white font-bold py-3 rounded-xl transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]">
                     Reserve
